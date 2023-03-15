@@ -1,0 +1,62 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.controlsWrapper{
+  background-color: #2b2929;
+  border: 5px solid #b7b2b2;
+  border-radius: 15px;
+  margin-top: 20%;
+}
+
+input{
+  width: 90%;
+  height: 30px;
+  font-size: 120%;
+  margin-bottom: 5%;
+}
+
+.ctrlButtons{
+  width: 40%;
+  margin-inline: 5%;
+}
+
+.myID{
+  text-decoration: underline;
+}
+
+.myID:hover{
+  color: #b7b2b2;
+}
+
+.notification{
+  margin-top: 10%;
+  justify-content: center;
+}
+
+.videos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media (max-width: 800px) {
+  .videos {
+    flex-direction: column;
+  }
+}
+
+.localStream, .remoteStream{
+  width: 80%;
+  border-radius: 5px;
+  background-color: black;
+}
+
+.EndCallButton{
+  width: 50%;
+  height: 70px;
+  font-size: 120%;
+  margin-top: 5%;
+}
